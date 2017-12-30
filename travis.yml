@@ -1,0 +1,17 @@
+sudo: required
+dist: trusty
+addons:
+  apt:
+    sources:
+      - Github
+    packages:
+      None
+language: node_js
+node_js:
+  - "index.js"
+
+
+install
+    - npm install 
+    - npm install
+    
